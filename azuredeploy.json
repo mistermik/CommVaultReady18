@@ -11,7 +11,7 @@
   },
   "variables": {
     "virtualMachineName": "cvltLab-VM",
-    "virtualMachineSize": "Standard_DS3_v2",
+    "virtualMachineSize": "Standard_DS3",
     "location": "[resourceGroup().location]",
     "virtualNetworkName": "cvltLab-VNET",
     "vnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
